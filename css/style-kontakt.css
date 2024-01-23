@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #877676b7;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    flex: 1;
+}
+
+.text-kontakt{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #000000b7 ;  
+text-align: right;
+height: 20vh;
+}
+
+form{
+    margin: 20px;
+    padding: 20px;  
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background-color: #7f668d;
+}
+input[type ="submit"]
+{
+padding: 5px 8px;
+background-color: #ffffffb7;
+}
+input[type ="submit"]:hover
+{
+
+background-color: #ffffffb7;
+}
+
+.Meny ul{
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    overflow: hidden;
+    background-color: rgb(9, 9, 9);
+}
+.Meny li{
+    float:left;
+}
+.Meny li a{
+    display:block;
+    color:rgb(252, 252, 252);
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+.Meny li a:hover{
+    background-color:rgb(113, 130, 214);
+
+}
+
+.active {
+    border-bottom: 2px solid #d5d5d5;
+    
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px; 
+    margin-top: auto;
+}
+/*för mindre skrämar som mobil*/
+@media (max-width:500px)
+{
+    .text-kontakt{
+        height: auto;
+    }
+
+    .Meny ul {
+        width: 100%; 
+    }
+
+.Meny li {
+        width: 100%; 
+}
+
+body {
+        font-size: 14px;
+        height: auto;
+    }
+}
