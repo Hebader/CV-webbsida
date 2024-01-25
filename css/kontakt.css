@@ -14,6 +14,13 @@ main {
     flex: 1;
 }
 
+.column img {
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
 .text-kontakt{
 display: flex;
 align-items: center;
