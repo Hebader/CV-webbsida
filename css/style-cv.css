@@ -73,17 +73,21 @@ footer {
 }
 /* För mindre skärmar */
 @media (max-width: 500px) {
-    .presentation-container {
+    .container {
         font-size: 15px;
+        display: flex;
+        flex-direction: column; 
     }
     
-    .column2 {
-        flex: 1;
-        padding: 20px;
-        display: flex;
-        justify-content: left;
-        flex-direction: row; 
-    }
+.right-column
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column; 
+}
 
     .column img {
         width: 100%;
