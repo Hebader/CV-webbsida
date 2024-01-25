@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    text-align: left; 
     background-color: #877676b7;
-    text-align: left;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,10 +10,13 @@ body {
 }
 
 main{
-    font-family: 'Acme', sans-serif;
+    font-family: 'Acme', sans-serif; /*valde ett annat typsnitt i innehållet*/
     font-size: 15px;
     line-height: 1.6; 
+    flex: 1;
 }
+
+
 .Meny ul {
     list-style-type: none;
     padding: 0;
@@ -42,9 +45,7 @@ main{
     border-bottom: 2px solid #d5d5d5;
 }
 
-main {
-    flex: 1; 
-}
+
 
 .presentation-container {
     display: flex;
@@ -65,12 +66,14 @@ main {
     margin: auto;
 }
 
+
 footer {
     background-color: black;
     color: white;
     text-align: center;
-    height: 40px
-    
+    height: 40px;
+    margin: 0;
+    padding:0;
 }
 
 /* För mindre skärmar */
