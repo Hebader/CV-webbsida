@@ -9,6 +9,11 @@ body {
     min-height: 100vh; 
 }
 
+main{
+    font-family: 'Acme', sans-serif;
+    font-size: 15px;
+    line-height: 1.6; 
+}
 .Meny ul {
     list-style-type: none;
     padding: 0;
@@ -74,6 +79,10 @@ footer {
         font-size: 15px;
         flex-direction: column; 
     }
+ .column
+ {
+    font-size: 18px;
+ }
     
     .column2 img {
         flex: 1;
